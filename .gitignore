@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+.DS_Store
+
+# Checkpoints intermédiaires (garder seulement modelA.pkl et modelB.pkl)
+models/*_ep*.pkl
+
+# Dataset (trop lourd, à télécharger depuis Kaggle)
+data/
+
+# Images de résultats générées
+result_*.png
